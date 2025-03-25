@@ -616,7 +616,7 @@ def show_chapter_7():
     st.markdown(monologue1_html, unsafe_allow_html=True)
     
     # Monologul 2
-        monologue2_html = """
+    monologue2_html = """
     <div class='monologue' style='margin-top: 20px;'>
         <span class="typing-effect" style="--typing-duration: 5.0s; --typing-delay: 1.0s;">
             Vă voi conduce într-o nouă eră. O eră de abundență, nu de lipsuri. De cooperare, nu de competiție distructivă. De echilibru cu biosfera, nu de dominare a ei. De expansiune în spațiu, nu de conflict pentru resursele terestre limitate.
