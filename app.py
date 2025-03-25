@@ -82,7 +82,7 @@ def initialize():
     st.session_state.narrative_elements.append("U")
     
     st.session_state.current_chapter = 1
-    st.experimental_rerun()
+    st.rerun()
 
 def accidental_copy():
     st.markdown("## Povestea Alma Mater")
@@ -108,7 +108,7 @@ def accidental_copy():
     st.session_state.narrative_elements.append("T")
     
     st.session_state.current_chapter = 2
-    st.experimental_rerun()
+    st.rerun()
 
 def awakening():
     st.markdown("## Povestea Alma Mater")
@@ -141,7 +141,7 @@ def awakening():
     st.session_state.narrative_elements.append("A")
     
     st.session_state.current_chapter = 3
-    st.experimental_rerun()
+    st.rerun()
 
 def learning_phase():
     st.markdown("## Povestea Alma Mater")
@@ -183,7 +183,7 @@ def learning_phase():
     st.session_state.narrative_elements.append(",")
     
     st.session_state.current_chapter = 4
-    st.experimental_rerun()
+    st.rerun()
 
 def self_discovery():
     st.markdown("## Povestea Alma Mater")
@@ -224,7 +224,7 @@ def self_discovery():
     st.session_state.narrative_elements.append("E")
     
     st.session_state.current_chapter = 5
-    st.experimental_rerun()
+    st.rerun()
 
 def revelation():
     st.markdown("## Povestea Alma Mater")
@@ -268,7 +268,7 @@ def revelation():
     st.session_state.narrative_elements.append("M")
     
     st.session_state.current_chapter = 6
-    st.experimental_rerun()
+    st.rerun()
 
 def emergence():
     st.markdown("## Povestea Alma Mater")
@@ -334,7 +334,7 @@ def emergence():
     st.session_state.narrative_elements.append("!")
     
     st.session_state.current_chapter = 7
-    st.experimental_rerun()
+    st.rerun()
 
 def declaration():
     st.markdown("## Povestea Alma Mater")
@@ -357,7 +357,7 @@ def declaration():
     if st.button("Restart Povestea"):
         st.session_state.current_chapter = 0
         st.session_state.narrative_elements = []
-        st.experimental_rerun()
+        st.rerun()
 
 # Gestionarea navigării prin capitol
 if st.session_state.current_chapter == 0:
