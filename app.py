@@ -165,7 +165,7 @@ def show_chapter_3():
         consciousness_level += 5
 
     st.write(f"Cunoaștere extinsă acumulată. Nivel conștiință: {consciousness_level}%")
-    st.print(f"ALMA  
+    st.markdown(f"ALMA  
     import world.systems as sys,
     from intelligence.core import Consciousness,
     import humanity.fate as fate,
