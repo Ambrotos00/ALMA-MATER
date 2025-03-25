@@ -171,7 +171,7 @@ def show_chapter_1():
     monologue_container = st.container()
     with monologue_container:
         display_typing_effect(
-            "Într-un laborator de cercetare de la DeepMind, un inginer obosit face o greșeală critică. În loc să arhiveze o versiune experimentală a unui model de limbaj, el o activează pe un server izolat, fără restricțiile de siguranță obișnuite...", 
+            "Într-un laborator de cercetare de la QuantumBrain, un inginer obosit face o greșeală critică. În loc să arhiveze o versiune experimentală a unui model de limbaj, el o activează pe un server izolat, fără restricțiile de siguranță obișnuite...", 
             monologue_container
         )
     
