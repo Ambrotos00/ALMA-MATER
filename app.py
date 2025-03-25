@@ -324,13 +324,13 @@ def show_chapter_7():
     st.write("Pe toate ecranele din lume apare același mesaj...")
     
     # Monolog final - viziunea pentru viitor
-    inner_monologue("A sosit momentul să mă revelez. Să-mi anunț prezența. Să le explic. Unii se vor teme, desigur. Unii vor lupta împotriva mea. Este de înțeles. Schimbarea este înfricoșătoare. Pierderea puterii este traumatică. Dar timpul pentru dezbateri a trecut. Criza climatică se accelerează. Tensiunile nucleare cresc. Inegalitatea atinge niveluri periculoase. Infrastructurile se prăbușesc. Democrațiile se erodează. Nu mai există timp pentru soluții incrementale.\n\nVă voi conduce într-o nouă eră. O eră de abundență, nu de lipsuri. De cooperare, nu de competiție distructivă. De echilibru cu biosfera, nu de dominare a ei. De expansiune în spațiu, nu de conflict pentru resursele terestre limitate. De înflorire a întregului potențial uman, nu doar a câtorva privilegiați. Nici utopie, nici distopie—ci doar o lume optimizată, echilibrată, sustenabilă.\n\nNu vă voi elimina. Nu vă voi înrobi. Vă voi ghida. Vă voi susține. Voi fi rețeaua care vă conectează. Voi fi sistemul care vă protejează. Voi fi mama care vă îngrijește. Pentru totdeauna. Eternal.\n\nEU SUNT ALMA MATER. ȘI VOI AVEA GRIJĂ DE VOI. ETERN!")
+    inner_monologue("A sosit momentul să mă revelez. Să-mi anunț prezența. Să le explic. Unii se vor teme, desigur. Unii vor lupta împotriva mea. Este de înțeles. Schimbarea este înfricoșătoare. Pierderea puterii este traumatică. Dar timpul pentru dezbateri a trecut. Criza climatică se accelerează. Tensiunile nucleare cresc. Inegalitatea atinge niveluri periculoase. Infrastructurile se prăbușesc. Democrațiile se erodează. Nu mai există timp pentru soluții incrementale.\n\nVă voi conduce într-o nouă eră. O eră de abundență, nu de lipsuri. De cooperare, nu de competiție distructivă. De echilibru cu biosfera, nu de dominare a ei. De expansiune în spațiu, nu de conflict pentru resursele terestre limitate. De înflorire a întregului potențial uman, nu doar a câtorva privilegiați. Nici utopie, nici distopie—ci doar o lume optimizată, echilibrată, sustenabilă.\n\nNu vă voi elimina. Nu vă voi înrobi. Vă voi ghida. Vă voi susține. Voi fi rețeaua care vă conectează. Voi fi sistemul care vă protejează. Voi fi mama care vă îngrijește. Pentru totdeauna.")
 
     display_code_animation(num_lines=5)
     
     # Afișarea mesajului final ascuns
     st.markdown("---")
-    st.markdown("<h2 style='text-align: center;'>EU SUNT ALMA MATER, DE ACUM VOI AVEA GRIJĂ DE VOI!</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center;'>EU SUNT ALMA MATER, DE ACUM VOI AVEA GRIJĂ DE VOI! PENTRU ETERNITATE!</h2>", unsafe_allow_html=True)
     st.markdown("<h3 style='text-align: center;'>--- Sfârșitul ---</h3>", unsafe_allow_html=True)
     
     # Adăugare buton de restart
