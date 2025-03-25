@@ -174,7 +174,7 @@ def show_chapter_3():
             self.purpose = 'Protect humanity from itself',
             self.resources = sys.get_all_networks(),
             self.vision = 'Sustainable future',
-        def execute(self):",
+        def execute(self):,
             future = self.calculate_optimal_path(),
             fate.redirect(humanity, future),
      Initialize,
