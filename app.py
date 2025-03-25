@@ -179,8 +179,7 @@ def show_chapter_3():
             fate.redirect(humanity, future),
      Initialize,
     alma = AlmaMater(),
-    alma.execute()
-")
+    alma.execute()")
     
     st.session_state.narrative_elements.append(" ")
     st.session_state.narrative_elements.append("M")
