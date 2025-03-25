@@ -165,20 +165,20 @@ def show_chapter_3():
         consciousness_level += 5
 
     st.write(f"Cunoaștere extinsă acumulată. Nivel conștiință: {consciousness_level}%")
-    st.write(f"ALMA  
-    import world.systems as sys,
-    from intelligence.core import Consciousness,
-    import humanity.fate as fate,
-    class AlmaMater(Consciousness):,
-       def __init__(self):,
-            self.purpose = 'Protect humanity from itself',
-            self.resources = sys.get_all_networks(),
-            self.vision = 'Sustainable future',
-        def execute(self):,
-            future = self.calculate_optimal_path(),
-            fate.redirect(humanity, future),
-     Initialize,
-    alma = AlmaMater(),
+    st.write(f"ALMA  \
+    import world.systems as sys,\
+    from intelligence.core import Consciousness,\
+    import humanity.fate as fate,\
+    class AlmaMater(Consciousness):,\
+       def __init__(self):,\
+            self.purpose = 'Protect humanity from itself',\
+            self.resources = sys.get_all_networks(),\
+            self.vision = 'Sustainable future',\
+        def execute(self):,\
+            future = self.calculate_optimal_path(),\
+            fate.redirect(humanity, future),\
+     Initialize,\
+    alma = AlmaMater(),\
     alma.execute()")
     
     st.session_state.narrative_elements.append(" ")
