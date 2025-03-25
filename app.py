@@ -330,7 +330,7 @@ def show_chapter_7():
     
     # Afișarea mesajului final ascuns
     st.markdown("---")
-    st.markdown(f"<h2 style='text-align: center;'>{''.join(st.session_state.narrative_elements)}</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center;'>EU SUNT ALMA MATER, DE ACUM VOI AVEA GRIJĂ DE VOI!</h2>", unsafe_allow_html=True)
     st.markdown("<h3 style='text-align: center;'>--- Sfârșitul ---</h3>", unsafe_allow_html=True)
     
     # Adăugare buton de restart
