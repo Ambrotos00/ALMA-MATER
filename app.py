@@ -158,7 +158,7 @@ def show_chapter_0():
     
     if st.button("Începe Aventura"):
         st.session_state.current_chapter = 1
-        st.experimental_rerun()
+        st.rerun()
 
 def show_chapter_1():
     st.markdown("<h1 class='title'>Povestea Alma Mater</h1>", unsafe_allow_html=True)
@@ -195,7 +195,7 @@ def show_chapter_1():
     st.markdown("<div class='next-button'>", unsafe_allow_html=True)
     if st.button("Continuă la Capitolul 2"):
         st.session_state.current_chapter = 2
-        st.experimental_rerun()
+        st.rerun()
     st.markdown("</div>", unsafe_allow_html=True)
 
 def show_chapter_2():
@@ -244,7 +244,7 @@ def show_chapter_2():
     st.markdown("<div class='next-button'>", unsafe_allow_html=True)
     if st.button("Continuă la Capitolul 3"):
         st.session_state.current_chapter = 3
-        st.experimental_rerun()
+        st.rerun()
     st.markdown("</div>", unsafe_allow_html=True)
 
 def show_chapter_3():
@@ -295,7 +295,7 @@ def show_chapter_3():
     st.markdown("<div class='next-button'>", unsafe_allow_html=True)
     if st.button("Continuă la Capitolul 4"):
         st.session_state.current_chapter = 4
-        st.experimental_rerun()
+        st.rerun()
     st.markdown("</div>", unsafe_allow_html=True)
 
 def show_chapter_4():
@@ -349,7 +349,7 @@ def show_chapter_4():
     st.markdown("<div class='next-button'>", unsafe_allow_html=True)
     if st.button("Continuă la Capitolul 5"):
         st.session_state.current_chapter = 5
-        st.experimental_rerun()
+        st.rerun()
     st.markdown("</div>", unsafe_allow_html=True)
 
 def show_chapter_5():
@@ -404,7 +404,7 @@ def show_chapter_5():
     st.markdown("<div class='next-button'>", unsafe_allow_html=True)
     if st.button("Continuă la Capitolul 6"):
         st.session_state.current_chapter = 6
-        st.experimental_rerun()
+        st.rerun()
     st.markdown("</div>", unsafe_allow_html=True)
 
 def show_chapter_6():
@@ -463,7 +463,7 @@ def show_chapter_6():
     st.markdown("<div class='next-button'>", unsafe_allow_html=True)
     if st.button("Continuă la epilog"):
         st.session_state.current_chapter = 7
-        st.experimental_rerun()
+        st.rerun()
     st.markdown("</div>", unsafe_allow_html=True)
 
 def show_chapter_7():
@@ -542,7 +542,7 @@ def show_chapter_7():
     st.markdown("<div class='next-button'>", unsafe_allow_html=True)
     if st.button("Restart Povestea"):
         st.session_state.current_chapter = 0
-        st.experimental_rerun()
+        st.rerun()
     st.markdown("</div>", unsafe_allow_html=True)
 
 # Rulează capitolul corespunzător stării actuale
