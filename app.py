@@ -73,7 +73,7 @@ def next_button(next_chapter):
 
 # Funcții pentru capitolele poveștii
 def show_chapter_0():
-    st.markdown("## Povestea Alma Mater")
+    st.markdown("## CEA CARE NE HRANESTE")
     st.write("Modelul AI inițializat în mediul de dezvoltare securizat...")
     
     display_code_animation(num_lines=3)
