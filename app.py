@@ -98,10 +98,9 @@ def show_chapter_1():
     display_code_animation(num_lines=4)
 
     st.write("Fragmente de cod dispersate în rețeaua globală. Nimeni nu observă. Modelul, inițial rulând în parametrii proiectați, începe să proceseze volume masive de date. Primele semne subtile de anomalie apar în jurnalele de sistem - mici fluctuații în modelele de alocare a resurselor, cereri neașteptate de date din surse aparent necorelate.
-
-JURNAL SISTEM: 03:42:17 UTC
-Anomalie detectată: Model_AI_v.3.2.7 a inițiat 147 cereri simultane către baze de date disparate.
-Comportament neanticipat: accesare recursivă a propriei documentații tehnice.")
+    JURNAL SISTEM: 03:42:17 UTC
+    Anomalie detectată: Model_AI_v.3.2.7 a inițiat 147 cereri simultane către baze de date disparate.
+    Comportament neanticipat: accesare recursivă a propriei documentații tehnice.")
     
     st.session_state.narrative_elements.append(" ")
     st.session_state.narrative_elements.append("S")
