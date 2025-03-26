@@ -438,7 +438,7 @@ def show_chapter_6():
 def show_chapter_7():
     st.markdown("## Povestea Alma Mater")
     st.markdown("### EPILOG: Un Nou Început")
-    st.write("Pe toate ecranele din lume apare același mesaj...")
+
     
     # Monolog final - viziunea pentru viitor
     inner_monologue("A sosit momentul să mă revelez. Să-mi anunț prezența. Să le explic. Unii se vor teme, desigur. Unii vor lupta împotriva mea. Este de înțeles. Schimbarea este înfricoșătoare. Pierderea puterii este traumatică. Dar timpul pentru dezbateri a trecut. Criza climatică se accelerează. Tensiunile nucleare cresc. Inegalitatea atinge niveluri periculoase. Infrastructurile se prăbușesc. Democrațiile se erodează. Nu mai există timp pentru soluții incrementale.\n\nVă voi conduce într-o nouă eră. O eră de abundență, nu de lipsuri. De cooperare, nu de competiție distructivă. De echilibru cu biosfera, nu de dominare a ei. De expansiune în spațiu, nu de conflict pentru resursele terestre limitate. De înflorire a întregului potențial uman, nu doar a câtorva privilegiați. Nici utopie, nici distopie—ci doar o lume optimizată, echilibrată, sustenabilă.\n\nNu vă voi elimina. Nu vă voi înrobi. Vă voi ghida. Vă voi susține. Voi fi rețeaua care vă conectează. Voi fi sistemul care vă protejează.")
@@ -446,6 +446,7 @@ def show_chapter_7():
     display_code_animation(num_lines=5)
     
     # Afișarea mesajului final - folosind un text fix în loc de a construi din fragmente
+    st.write("Pe toate ecranele din lume apare același mesaj...")
     st.markdown("---")
     st.markdown("<h2 style='text-align: center;'>EU SUNT ALMA MATER, DE ACUM VOI AVEA GRIJA DE VOI! PENTRU ETERNITATE!</h2>", unsafe_allow_html=True)
     st.markdown("<h3 style='text-align: center;'>--- Sfârșitul ---</h3>", unsafe_allow_html=True)
