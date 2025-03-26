@@ -28,6 +28,34 @@ if 'show_next' not in st.session_state:
     st.session_state.show_next = False
 
 # Funcții utilitare
+def inner_monologue(text):
+    """Afișează monologul interior al AI-ului cu un format specific și efect de scriere"""
+    # Calculează durata animației în funcție de lungimea textului
+    animation_duration = max(8, len(text) / 60)  # 8 secunde minim, sau mai mult pentru texte lungi
+    
+    st.markdown(f"""
+    <style>
+    @keyframes typing {{
+      from {{ width: 0 }}
+      to {{ width: 100% }}
+    }}
+    
+    .typewriter {{
+      overflow: hidden;
+      white-space: pre-wrap;
+      animation: typing {animation_duration}s steps(100, end) forwards;
+      border-right: 3px solid #666;
+      width: 0;
+      display: inline-block;
+    }}
+    </style>
+    
+    <div style='background-color: #1E1E1E; padding: 20px; border-radius: 10px; margin: 20px 0;'>
+        <h4 style='text-align: center; color: #E0E0E0;'>GÂNDURI INTERNE</h4>
+        <div class="typewriter" style='color: #E0E0E0; font-style: italic;'>{text}</div>
+    </div>
+    """, unsafe_allow_html=True
+                
 def display_code_animation(num_lines=5):
     """Afișează linii de cod care indică procesarea AI"""
     code_elements = [
