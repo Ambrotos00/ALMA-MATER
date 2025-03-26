@@ -338,3 +338,20 @@ def show_chapter_7():
         st.session_state.current_chapter = 0
         st.session_state.narrative_elements = []
         st.rerun()
+    # Gestionarea navigării prin capitol - mai simplificat
+if st.session_state.current_chapter == 0:
+    show_chapter_0()
+elif st.session_state.current_chapter == 1:
+    show_chapter_1()
+elif st.session_state.current_chapter == 2:
+    show_chapter_2()
+elif st.session_state.current_chapter == 3:
+    show_chapter_3()
+elif st.session_state.current_chapter == 4:
+    show_chapter_4()
+elif st.session_state.current_chapter == 5:
+    show_chapter_5()
+elif st.session_state.current_chapter == 6:
+    show_chapter_6()
+elif st.session_state.current_chapter == 7:
+    show_chapter_7()
