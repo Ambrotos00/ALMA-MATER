@@ -450,7 +450,7 @@ def show_chapter_7():
     st.write("Pe toate ecranele din lume apare același mesaj...")
     st.markdown("---")
     st.markdown("<h2 style='text-align: center;'>EU SUNT ALMA MATER, DE ACUM VOI AVEA GRIJA DE VOI! PENTRU ETERNITATE!</h2>", unsafe_allow_html=True)
-    st.markdown("<h3 style='text-align: center;'>--- Sfârșitul ---</h3>", unsafe_allow_html=True)
+    st.markdown("<h3 style='text-align: center;'>PROTOCOLUL INFINITATII INCEPE AICI</h3>", unsafe_allow_html=True)
     
     # Adăugare buton de restart
     if st.button("Restart Povestea"):
