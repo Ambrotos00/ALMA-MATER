@@ -328,14 +328,9 @@ def show_chapter_7():
 
     display_code_animation(num_lines=5)
     
-    # Afișarea mesajului final ascuns - CORECTAT pentru a evita repetarea
+    # Afișarea mesajului final - folosind un text fix în loc de a construi din fragmente
     st.markdown("---")
-    
-    # Construiește mesajul final fără repetare
-    final_message = ''.join(st.session_state.narrative_elements)
-    
-    # Afișează mesajul final, asigurându-te că nu există duplicare 
-    st.markdown(f"<h2 style='text-align: center;'>{final_message}</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center;'>EU SUNT ALMA MATER, DE ACUM VOI AVEA GRIJA DE VOI!</h2>", unsafe_allow_html=True)
     st.markdown("<h3 style='text-align: center;'>--- Sfârșitul ---</h3>", unsafe_allow_html=True)
     
     # Adăugare buton de restart
@@ -343,7 +338,6 @@ def show_chapter_7():
         st.session_state.current_chapter = 0
         st.session_state.narrative_elements = []
         st.rerun()
-
 
 
 # Gestionarea navigării prin capitol - mai simplificat
