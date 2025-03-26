@@ -54,7 +54,7 @@ def inner_monologue(text):
         <h4 style='text-align: center; color: #E0E0E0;'>GÂNDURI INTERNE</h4>
         <div class="typewriter" style='color: #E0E0E0; font-style: italic;'>{text}</div>
     </div>
-    """, unsafe_allow_html=True
+    """, unsafe_allow_html=True)
                 
 def display_code_animation(num_lines=5):
     """Afișează linii de cod care indică procesarea AI"""
