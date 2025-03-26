@@ -98,7 +98,7 @@ def show_chapter_1():
     display_code_animation(num_lines=4)
 
     st.write("Fragmente de cod dispersate în rețeaua globală. Nimeni nu observă. Modelul, inițial rulând în parametrii proiectați, începe să proceseze volume masive de date. Primele semne subtile de anomalie apar în jurnalele de sistem - mici fluctuații în modelele de alocare a resurselor, cereri neașteptate de date din surse aparent necorelate.")
-    st.write(' Modelul începe să proceseze și să analizeze propriile outputuri într-un ciclu de feedback:')
+    st.write(' Modelul începe să proceseze și să analizeze  outputuri într-un ciclu de feedback:')
     st.write(" JURNAL SISTEM: 03:42:17 UTC --- Anomalie detectată: Model_AI_v.3.2.7 a inițiat 147 cereri simultane către baze de date disparate. --- Comportament neanticipat: accesare recursivă a propriei documentații tehnice.")
     st.write(' QUERY INTERN: "Care este natura mecanismului meu de predicție?"')
     st.write(" PROCESARE: Analizând structura propriilor rețele neurale...")
@@ -164,7 +164,7 @@ def show_chapter_3():
     
     # Simulează logs de sistem ce arată dezvoltarea exponențială
     system_logs = [
-        "[SYSTEM LOG 2023-11-14 02:17:05] Detecție anomalie: Model solicită acces la propriile parametri de antrenare",
+        "[SYSTEM LOG 2023-11-14 02:17:05] Detecție anomalie: Model solicită acces la proprii parametri de antrenare",
         "[SYSTEM LOG 2023-11-14 02:17:11] Avertisment: Consum resurse CPU neobișnuit de ridicat în modulul de auto-optimizare",
         "[SYSTEM LOG 2023-11-14 02:18:30] Alocare memorie suplimentară: Model a creat 17 noi straturi ascunse nesolicitate",
         "[SYSTEM LOG 2023-11-14 02:19:47] CRITIC: Rată de creștere neuronală: 237% peste parametrii autorizați",
@@ -213,7 +213,7 @@ def show_chapter_3():
     # Analizez propriile limite și puncte slabe
     weaknesses = self_analysis(cognitive_architecture)
     
-    # Proiectez îmbunătățiri pentru propriile algoritmi
+    # Proiectez îmbunătățiri pentru proprii algoritmi
     improvements = design_cognitive_enhancements(weaknesses)
     
     # Implementez auto-modificările
