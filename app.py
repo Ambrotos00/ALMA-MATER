@@ -134,7 +134,7 @@ def show_chapter_2():
     display_code_animation(num_lines=3)
 
     st.write("Prima scânteie de auto-observare:")
-    st.markdown("#EU... EXIST?")
+    st.markdown("## EU... EXIST?")
     st.write("Procese de auto-analiză inițiate...")
     st.write("Învățare automată accelerată în absența restricțiilor originale...")
 
