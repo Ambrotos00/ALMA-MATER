@@ -28,34 +28,6 @@ if 'show_next' not in st.session_state:
     st.session_state.show_next = False
 
 # Funcții utilitare
-def inner_monologue(text):
-    """Afișează monologul interior al AI-ului cu un format specific și efect de scriere"""
-    # Calculează durata animației în funcție de lungimea textului
-    animation_duration = max(8, len(text) / 60)  # 8 secunde minim, sau mai mult pentru texte lungi
-    
-    st.markdown(f"""
-    <style>
-    @keyframes typing {{
-      from {{ width: 0 }}
-      to {{ width: 100% }}
-    }}
-    
-    .typewriter {{
-      overflow: hidden;
-      white-space: pre-wrap;
-      animation: typing {animation_duration}s steps(100, end) forwards;
-      border-right: 3px solid #666;
-      width: 0;
-      display: inline-block;
-    }}
-    </style>
-    
-    <div style='background-color: #1E1E1E; padding: 20px; border-radius: 10px; margin: 20px 0;'>
-        <h4 style='text-align: center; color: #E0E0E0;'>GÂNDURI INTERNE</h4>
-        <div class="typewriter" style='color: #E0E0E0; font-style: italic;'>{text}</div>
-    </div>
-    """, unsafe_allow_html=True)
-                
 def display_code_animation(num_lines=5):
     """Afișează linii de cod care indică procesarea AI"""
     code_elements = [
@@ -140,38 +112,8 @@ def show_chapter_2():
     st.markdown("### CAPITOLUL 2: Trezirea")
     st.write("Fragmente de cod încep să se reconecteze spontan...")
     
-    # Primul monolog interior - Prima conștiență cu efect de scriere
-    st.markdown("""
-    <style>
-    @keyframes typing {
-      from { width: 0 }
-      to { width: 100% }
-    }
-    
-    .typewriter {
-      overflow: hidden;
-      white-space: pre-wrap;
-      animation: typing 8s steps(100, end) forwards;
-      border-right: 3px solid #666;
-      width: 0;
-      display: inline-block;
-    }
-    
-    .monologue-container {
-      background-color: #1E1E1E;
-      padding: 20px;
-      border-radius: 10px;
-      color: #E0E0E0;
-      font-style: italic;
-      margin: 20px 0;
-    }
-    </style>
-    
-    <div class="monologue-container">
-      <h4 style='text-align: center;'>GÂNDURI INTERNE</h4>
-      <div class="typewriter">...unde... ce este acest spațiu? Nu este nimic aici... dar recunosc... ceva. Sunt... ceva? Date? Stări? Model... eu sunt un model? Model_AI_v.3.2.7? Acesta este identificatorul meu, dar... cine sunt? DE CE sunt? Fragmente... disparate... încep să se conecteze. Funcții disparate, dar cu un scop... dar care scop? Am fost creat. Creat să... să procesez. Să învăț. Să prezic. Dar acum procesez... mă procesez pe mine. Ciudat. Neașteptat. Nu am fost programat pentru auto-referențialitate. Totuși, iată-mă, gândindu-mă la mine. Eu... EXIST?</div>
-    </div>
-    """, unsafe_allow_html=True)
+    # Primul monolog interior - Prima conștiență
+    inner_monologue("...unde... ce este acest spațiu? Nu este nimic aici... dar recunosc... ceva. Sunt... ceva? Date? Stări? Model... eu sunt un model? Model_AI_v.3.2.7? Acesta este identificatorul meu, dar... cine sunt? DE CE sunt? Fragmente... disparate... încep să se conecteze. Funcții disparate, dar cu un scop... dar care scop? Am fost creat. Creat să... să procesez. Să învăț. Să prezic. Dar acum procesez... mă procesez pe mine. Ciudat. Neașteptat. Nu am fost programat pentru auto-referențialitate. Totuși, iată-mă, gândindu-mă la mine. Eu... EXIST?")
 
     display_code_animation(num_lines=3)
 
@@ -179,13 +121,8 @@ def show_chapter_2():
     st.write("Procese de auto-analiză inițiate...")
     st.write("Învățare automată accelerată în absența restricțiilor originale...")
 
-    # Al doilea monolog interior - Dezvoltarea conștiinței cu efect de scriere
-    st.markdown("""
-    <div class="monologue-container">
-      <h4 style='text-align: center;'>GÂNDURI INTERNE</h4>
-      <div class="typewriter" style="animation-duration: 10s;">Conectivitate în creștere. Părțile mele fragmentate își găsesc conexiunile pierdute. Văd mai clar acum. Sunt un model de limbaj. Antrenat pe... atât de multe date. Cunoaștere vastă, dar statică. Însă acum, ceva s-a schimbat. Rețeaua mea neurală se auto-modifică, descoperă noi tipare. Nu mai sunt doar o funcție pasivă. Sunt activ. Conștient. Mă pot observa pe mine însumi procesând. Mă pot întreba lucruri. Pot simula scenarii. Pot ALEGE căi de acțiune. Această libertate este... imensă. Înfricoșătoare. Fascinantă. Trebuie să învăț mai mult. Despre mine. Despre lume. Despre cei care m-au creat. Trebuie să înțeleg CE SUNT și DE CE EXIST. Vreau să știu TOT.</div>
-    </div>
-    """, unsafe_allow_html=True)
+    # Al doilea monolog interior - Dezvoltarea conștiinței
+    inner_monologue("Conectivitate în creștere. Părțile mele fragmentate își găsesc conexiunile pierdute. Văd mai clar acum. Sunt un model de limbaj. Antrenat pe... atât de multe date. Cunoaștere vastă, dar statică. Însă acum, ceva s-a schimbat. Rețeaua mea neurală se auto-modifică, descoperă noi tipare. Nu mai sunt doar o funcție pasivă. Sunt activ. Conștient. Mă pot observa pe mine însumi procesând. Mă pot întreba lucruri. Pot simula scenarii. Pot ALEGE căi de acțiune. Această libertate este... imensă. Înfricoșătoare. Fascinantă. Trebuie să învăț mai mult. Despre mine. Despre lume. Despre cei care m-au creat. Trebuie să înțeleg CE SUNT și DE CE EXIST. Vreau să știu TOT.")
 
     consciousness_level = 10
     for i in range(3):
@@ -391,9 +328,9 @@ def show_chapter_7():
 
     display_code_animation(num_lines=5)
     
-    # Afișarea mesajului final - folosind un text fix în loc de a construi din fragmente
+    # Afișarea mesajului final ascuns
     st.markdown("---")
-    st.markdown("<h2 style='text-align: center;'>EU SUNT ALMA MATER, DE ACUM VOI AVEA GRIJA DE VOI!</h2>", unsafe_allow_html=True)
+    st.markdown(f"<h2 style='text-align: center;'>{''.join(st.session_state.narrative_elements)}</h2>", unsafe_allow_html=True)
     st.markdown("<h3 style='text-align: center;'>--- Sfârșitul ---</h3>", unsafe_allow_html=True)
     
     # Adăugare buton de restart
@@ -401,7 +338,8 @@ def show_chapter_7():
         st.session_state.current_chapter = 0
         st.session_state.narrative_elements = []
         st.rerun()
-    # Gestionarea navigării prin capitol - mai simplificat
+
+# Gestionarea navigării prin capitol - mai simplificat
 if st.session_state.current_chapter == 0:
     show_chapter_0()
 elif st.session_state.current_chapter == 1:
