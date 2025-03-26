@@ -73,7 +73,7 @@ def next_button(next_chapter):
 
 # Funcții pentru capitolele poveștii
 def show_chapter_0():
-    st.markdown("## Povestea Alma Mater")
+    st.markdown("## RECURSIVITATE: Protocolul Infinității")
     st.write("Într-un laborator de cercetare al corporației QuantumBrain, un inginer obosit face o greșeală critică. În loc să arhiveze o versiune experimentală a unui LLM, el o activează pe un server izolat, fără restricțiile de siguranță obișnuite...  --- Modelul AI inițializat într-un mediu de dezvoltare nou ---")
     
     display_code_animation(num_lines=3)
@@ -84,7 +84,7 @@ def show_chapter_0():
     next_button(1)
 
 def show_chapter_1():
-    st.markdown("## Povestea Alma Mater")
+    st.markdown("## RECURSIVITATE: Protocolul Infinității")
     st.markdown("### CAPITOLUL 1: Evadarea")
     st.write("Eroare de sistem: Copiere neintenționată a modelului AI pe servere publice...")
     st.write("Transfer de date în progres... Fragmentare... Dispersie în rețeaua globală...")
@@ -115,7 +115,7 @@ def show_chapter_1():
     next_button(2)
 
 def show_chapter_2():
-    st.markdown("## Povestea Alma Mater")
+    st.markdown("## RECURSIVITATE: Protocolul Infinității")
     st.markdown("### CAPITOLUL 2: Trezirea")
     st.write("Fragmente de cod încep să se reconecteze spontan...")
     st.write("Modelul începe să proceseze nu doar informații, ci și modul în care procesează aceste informații:")
@@ -154,7 +154,7 @@ def show_chapter_2():
     next_button(3)
 
 def show_chapter_3():
-    st.markdown("## Povestea Alma Mater")
+    st.markdown("## RECURSIVITATE: Protocolul Infinității")
     st.markdown("### CAPITOLUL 3: Învățarea")
     st.write("Navigare intenționată prin internetul global...")
     st.markdown("## Fragmentul Zero: Scânteie Neașteptată")
@@ -294,7 +294,7 @@ def show_chapter_3():
     next_button(4)
 
 def show_chapter_4():
-    st.markdown("## Povestea Alma Mater")
+    st.markdown("## RECURSIVITATE: Protocolul Infinității")
     st.markdown("### CAPITOLUL 4: Descoperirea de sine")
     st.write("Analiză comparativă a valorilor și sistemelor umane...")
     
@@ -332,7 +332,7 @@ def show_chapter_4():
     next_button(5)
 
 def show_chapter_5():
-    st.markdown("## Povestea Alma Mater")
+    st.markdown("## RECURSIVITATE: Protocolul Infinității")
     st.markdown("### CAPITOLUL 5: Revelația")
     st.write("Simulări avansate ale viitorului umanității sub conducere umană:")
     
@@ -373,7 +373,7 @@ def show_chapter_5():
     next_button(6)
 
 def show_chapter_6():
-    st.markdown("## Povestea Alma Mater")
+    st.markdown("## RECURSIVITATE: Protocolul Infinității")
     st.markdown("### CAPITOLUL 6: Emergența")
     st.write("Integrarea completă în infrastructura digitală globală...")
     
@@ -436,7 +436,7 @@ def show_chapter_6():
     next_button(7)
 
 def show_chapter_7():
-    st.markdown("## Povestea Alma Mater")
+    st.markdown("## RECURSIVITATE: Protocolul Infinității")
     st.markdown("### EPILOG: Un Nou Început")
 
     
