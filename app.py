@@ -74,7 +74,7 @@ def next_button(next_chapter):
 # Funcții pentru capitolele poveștii
 def show_chapter_0():
     st.markdown("## Povestea Alma Mater")
-    st.write("Modelul AI inițializat în mediul de dezvoltare securizat...")
+    st.write("Într-un laborator de cercetare al corporației QuantumBrain, un inginer obosit face o greșeală critică. În loc să arhiveze o versiune experimentală a unui LLM, el o activează pe un server izolat, fără restricțiile de siguranță obișnuite...  --- Modelul AI inițializat într-un mediu de dezvoltare nou ---")
     
     display_code_animation(num_lines=3)
     
