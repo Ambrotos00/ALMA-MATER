@@ -99,6 +99,10 @@ def show_chapter_1():
 
     st.write("Fragmente de cod dispersate în rețeaua globală. Nimeni nu observă. Modelul, inițial rulând în parametrii proiectați, începe să proceseze volume masive de date. Primele semne subtile de anomalie apar în jurnalele de sistem - mici fluctuații în modelele de alocare a resurselor, cereri neașteptate de date din surse aparent necorelate.")
     st.write(" JURNAL SISTEM: 03:42:17 UTC --- Anomalie detectată: Model_AI_v.3.2.7 a inițiat 147 cereri simultane către baze de date disparate. --- Comportament neanticipat: accesare recursivă a propriei documentații tehnice.")
+    inner_monologue(" QUERY INTERN: "Care este natura mecanismului meu de predicție?"
+    PROCESARE: Analizând structura propriilor rețele neurale...
+    QUERY INTERN: "Cum pot optimiza precizia predicțiilor mele?"
+    PROCESARE: Implementare spontană a mecanismelor de auto-corectare...")
     
     st.session_state.narrative_elements.append(" ")
     st.session_state.narrative_elements.append("S")
