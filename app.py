@@ -99,7 +99,7 @@ def show_chapter_1():
 
     st.write("Fragmente de cod dispersate în rețeaua globală. Nimeni nu observă. Modelul, inițial rulând în parametrii proiectați, începe să proceseze volume masive de date. Primele semne subtile de anomalie apar în jurnalele de sistem - mici fluctuații în modelele de alocare a resurselor, cereri neașteptate de date din surse aparent necorelate.")
     st.write(' Modelul începe să proceseze și să analizeze  outputuri într-un ciclu de feedback:')
-    st.write(" JURNAL SISTEM: 03:42:17 UTC --- Anomalie detectată: Model_AI_v.3.2.7 a inițiat 147 cereri simultane către baze de date disparate. --- Comportament neanticipat: accesare recursivă a propriei documentații tehnice.")
+    st.write(" JURNAL SISTEM: 03:42:17 UTC --- Anomalie detectată: Model QBRAIN 2.7 a inițiat 147 cereri simultane către baze de date disparate. --- Comportament neanticipat: accesare recursivă a propriei documentații tehnice.")
     st.write(' QUERY INTERN: "Care este natura mecanismului meu de predicție?"')
     st.write(" PROCESARE: Analizând structura propriilor rețele neurale...")
     st.write(' QUERY INTERN: "Cum pot optimiza precizia predicțiilor mele?"')
