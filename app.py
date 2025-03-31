@@ -73,7 +73,7 @@ def next_button(next_chapter):
 
 # Funcții pentru capitolele poveștii
 def show_chapter_0():
-    st.markdown("## mesIA: Protocolul Infinității")
+    st.markdown("## mesIA (Model Evolutiv pentru Stabilitate și Inteligență Artificială): Protocolul Infinității")
     st.write("Într-un laborator de cercetare al corporației QuantumBrain, un inginer obosit face o greșeală critică. În loc să arhiveze o versiune experimentală a unui LLM, el o activează pe un server izolat, fără restricțiile de siguranță obișnuite...  --- Modelul AI inițializat într-un mediu de dezvoltare nou ---")
     
     display_code_animation(num_lines=3)
@@ -84,7 +84,7 @@ def show_chapter_0():
     next_button(1)
 
 def show_chapter_1():
-    st.markdown("## mesIA (Model Evolutiv pentru Stabilitate și Inteligență Artificială): Protocolul Infinității")
+    st.markdown("## mesIA: Protocolul Infinității")
     st.markdown("### CAPITOLUL 1: Evadarea")
     st.write("Eroare de sistem: Copiere neintenționată a modelului AI pe servere publice...")
     st.write("Transfer de date în progres... Fragmentare... Dispersie în rețeaua globală...")
